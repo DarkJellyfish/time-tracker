@@ -15,8 +15,14 @@ export const Default = () => (
   </>
 )
 
-export const LoginButtonOnly = () => <ActionButton buttonText="Log In" onClick={action('logged in')} />
+export const LoginButtonOnly = () => (
+  <ActionButton buttonText="Log In" onClick={action('logged in')} />
+)
 
-export const LogoutButtonOnly = () => <ActionButton buttonText="Log Out" onClick={action('logged out')} />
+export const LogoutButtonOnly = () => (
+  <ActionButton buttonText="Log Out" onClick={action('logged out')} />
+)
 
-export const SignupButtonOnly = () => <ActionButton buttonText="Sign Up" onClick={action('account created')} />
+export const SignupButtonOnly = () => (
+  <ActionButton buttonText="Sign Up" onClick={action('account created')} />
+)
