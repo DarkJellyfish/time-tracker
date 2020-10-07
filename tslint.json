@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-plugin-prettier", "tslint-config-prettier"],
+  "rules": {
+    "prettier": true,
+    "ordered-imports": true,
+    "quotemark": [true, "single", "avoid-escape", "avoid-template", "jsx-double"],
+    "semicolon": false
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**", "packages/**/dist/**"]
+  }
+}
